@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática 11</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="my-2">Verificar infração 🚨</h1>
+        
+        <form>
+            
+            <div class="form-group">
+                <label for="limitePermitido">Condutor:</label>
+                <input type="text" class="form-control" id="usuario" 
+                    placeholder="Informe seu nome" required>
+            </div>
+
+            <div class="form-group">
+                <label for="limitePermitido">Velocidade permitida:</label>
+                <input type="text" class="form-control" id="limitePermitido" 
+                    placeholder="Informe a velocidade permitida" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="velocidadeCondutor">Velocidade do condutor:</label>
+                <input type="text" class="form-control" id="velocidadeCondutor"
+                    placeholder="Informe a velocidade do veículo" required>
+            </div>
+            
+            <button type="submit" class="btn btn-warning">Verificar velocidade ⏲︎</button>
+        </form>
+        
+        <h3 id="situacao" class="mt-4"></h3>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
+    
+</body>
+</html>
